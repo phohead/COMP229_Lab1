@@ -1,3 +1,10 @@
+/*
+File Name: COMP229_Lab1
+Student Name: Wilson Yang
+Student Numb: 301195179
+Date: October 03, 2023
+*/
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -24,6 +31,7 @@ app.use(express.static("./node_modules"));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+// Contact Form Data
 app.post('/process-contact', (req, res) => {
   // Process the form data here. 
   const firstName = req.body['first-name'];
