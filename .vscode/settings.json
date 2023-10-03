@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f9ac32ce-455f-477b-b255-248cf4397800/resourceGroups/wyang72-COMP229Lab1_group/providers/Microsoft.Web/sites/wyang72-COMP229Lab1",
+    "appService.deploySubpath": "."
+}
