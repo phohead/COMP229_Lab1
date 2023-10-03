@@ -13,8 +13,44 @@
   </head>
   <body>
     
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Contact Information</h5>
+        <p class="card-text">Attached below is my contact information.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Phone Number: (647)-649-8328</li>
+        <a href="mailto:wyang72@my.centennialcollege.ca" class="list-group-item">wyang72@my.centennialcollege.ca</a>
+      </ul>
+    </div>
 
+    <div class="contact-form-header text-center"><h3>Contact Form</h3></div>
 
+    <form action="/process-contact" method="post" class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">First Name</label>
+        <input type="text" class="first-name form-control">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Last Name</label>
+        <input type="text" class="last-name form-control">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="contact-email form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="typePhone" class="form-label">Phone Number</label>
+        <input type="tel" class="contact-phone form-control" id="typePhone">
+      </div>
+      <div class="col-md-12">
+        <label class="form-label input-lg">Enter your message here:</label>
+        <input type="text" class="contact-message form-control">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
 
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

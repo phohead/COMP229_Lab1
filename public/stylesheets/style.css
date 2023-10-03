@@ -31,7 +31,7 @@ a {
   margin-top: 50px;
 }
 
-/* Styling the About Me card */
+/* Styling the About Me Page */
 .about-card-container {
   display: flex;
   justify-content: center; 
@@ -46,6 +46,10 @@ a {
 
 .card-body {
   margin-top: 20px;
+}
+
+.resume-link {
+  margin-bottom: 15px;
 }
 
 /* Styling Services Page */
@@ -76,4 +80,10 @@ a {
 
 .projects-card {
   margin-top: 30px;
+}
+
+/* Styling Contact Form */
+.contact-form-header {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }

@@ -24,6 +24,17 @@ app.use(express.static("./node_modules"));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.post('/process-contact', (req, res) => {
+  // Process the form data here. 
+  const firstName = req.body['first-name'];
+  const lastName = req.body['last-name'];
+  const email = req.body['contact-email'];
+  const phoneNum = req.body['contact-phone'];
+  const message = req.body['contact-message'];
+  //After processing, redirect the user back to the home page
+  res.redirect('/');
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
